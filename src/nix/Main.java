@@ -1,10 +1,16 @@
 package nix;
 
+import com.sun.jdi.LongType;
+
 import java.util.ArrayList;
 
 public class Main {
 
     public static void main(String[] args) {
+
+
+        long x = 214753649;
+        System.out.println(Long.toBinaryString(x));
 
         /*я нашел правильное решение условия, но
         я совсем не могу понять как отстроить правильный
@@ -14,6 +20,7 @@ public class Main {
         Если возможно - покажите пожалуйста это на лекции
         в понедельник
          */
+
 
         int i = 3;
           {
